@@ -4,7 +4,7 @@ Donate link: https://starsmedia.com/donate
 Tags: woocommerce, cart, counter, shopping cart, cart icon
 Requires at least: 5.8
 Tested up to: 6.8
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -150,6 +150,11 @@ Yes, the plugin does not collect or store any personal data. It only uses LocalS
 
 == Changelog ==
 
+= 1.1.1 =
+* Fixed: Cart icon not displaying due to SVG escaping issue
+* Improved: Added proper SVG sanitization for security
+* Fixed: viewBox attribute case sensitivity issue
+
 = 1.1.0 =
 * Added theme compatibility mode for better positioning control
 * New backend options for fine-tuning counter position (offset top/right)
@@ -175,6 +180,9 @@ Yes, the plugin does not collect or store any personal data. It only uses LocalS
 * Translation ready
 
 == Upgrade Notice ==
+
+= 1.1.1 =
+Critical fix: Cart icon now displays correctly. Update immediately if icons are missing.
 
 = 1.1.0 =
 New theme compatibility features and positioning controls. Update recommended if you experience display issues with your theme.

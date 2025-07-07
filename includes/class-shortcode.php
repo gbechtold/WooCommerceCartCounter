@@ -99,7 +99,7 @@ class Woo_Cart_Counter_Shortcode {
 
 					<?php if ( 'text_only' !== $atts['display_style'] ) : ?>
 						<span class="woo-cart-counter-icon-wrapper">
-							<?php echo wp_kses_post( $this->get_icon_html( $atts['icon'], $atts['icon_url'] ) ); ?>
+							<?php echo $this->get_icon_html_safe( $atts['icon'], $atts['icon_url'] ); ?>
 							<?php if ( $show_count && 'inline' !== $atts['count_position'] && $cart_count > 0 ) : ?>
 								<span class="woo-cart-counter-count" data-count="<?php echo esc_attr( $cart_count ); ?>"><?php echo esc_html( $cart_count ); ?></span>
 							<?php endif; ?>
@@ -138,6 +138,52 @@ class Woo_Cart_Counter_Shortcode {
 
 		// Allow filtering of final output
 		return apply_filters( 'woo_cart_counter_shortcode_output', $output, $atts );
+	}
+
+	/**
+	 * Get icon HTML with proper escaping
+	 *
+	 * @param string $icon Icon type.
+	 * @param string $icon_url Custom icon URL.
+	 * @return string
+	 */
+	private function get_icon_html_safe( $icon, $icon_url = '' ) {
+		$html = $this->get_icon_html( $icon, $icon_url );
+		
+		// Allow SVG tags and attributes
+		$allowed_svg = array(
+			'svg' => array(
+				'class' => true,
+				'xmlns' => true,
+				'viewBox' => true,
+				'fill' => true,
+				'stroke' => true,
+				'stroke-width' => true,
+				'stroke-linecap' => true,
+				'stroke-linejoin' => true,
+			),
+			'circle' => array(
+				'cx' => true,
+				'cy' => true,
+				'r' => true,
+			),
+			'path' => array(
+				'd' => true,
+			),
+			'line' => array(
+				'x1' => true,
+				'y1' => true,
+				'x2' => true,
+				'y2' => true,
+			),
+			'img' => array(
+				'src' => true,
+				'alt' => true,
+				'class' => true,
+			),
+		);
+		
+		return wp_kses( $html, $allowed_svg );
 	}
 
 	/**
