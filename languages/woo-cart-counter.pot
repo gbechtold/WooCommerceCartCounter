@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Cart Counter 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-cart-counter\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: woo-cart-counter.php:56
+msgid "WooCommerce Cart Counter requires WooCommerce to be installed and active."
+msgstr ""
+
+#: woo-cart-counter.php:86
+msgid "Settings"
+msgstr ""
+
+#: includes/class-shortcode.php:98
+msgid "View cart"
+msgstr ""
+
+#: includes/class-shortcode.php:115
+msgid "Cart"
+msgstr ""
+
+#: includes/class-shortcode.php:121
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shortcode.php:121
+msgid "item"
+msgstr ""
+
+#: includes/class-shortcode.php:121
+msgid "items"
+msgstr ""
+
+#: includes/class-woo-cart-counter.php:243
+msgid "Shopping Cart"
+msgstr ""
+
+#: includes/class-woo-cart-counter.php:244
+msgid "Shopping Basket"
+msgstr ""
+
+#: includes/class-woo-cart-counter.php:245
+msgid "Shopping Bag"
+msgstr ""
+
+#: includes/class-woo-cart-counter.php:246
+msgid "Custom Icon"
+msgstr ""
+
+#: includes/class-widget.php:24
+msgid "Display WooCommerce cart counter"
+msgstr ""
+
+#: includes/class-widget.php:31
+msgid "WooCommerce Cart Counter"
+msgstr ""
+
+#: includes/class-widget.php:113
+msgid "Title:"
+msgstr ""
+
+#: includes/class-widget.php:118
+msgid "Icon:"
+msgstr ""
+
+#: includes/class-widget.php:126
+msgid "Custom Icon URL:"
+msgstr ""
+
+#: includes/class-widget.php:130
+msgid "Display Style:"
+msgstr ""
+
+#: includes/class-widget.php:133
+msgid "Icon with Count"
+msgstr ""
+
+#: includes/class-widget.php:134
+msgid "Icon with Text"
+msgstr ""
+
+#: includes/class-widget.php:135
+msgid "Text Only"
+msgstr ""
+
+#: includes/class-widget.php:140
+msgid "Count Position:"
+msgstr ""
+
+#: includes/class-widget.php:143
+msgid "Top Right"
+msgstr ""
+
+#: includes/class-widget.php:144
+msgid "Top Left"
+msgstr ""
+
+#: includes/class-widget.php:145
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/class-widget.php:146
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/class-widget.php:147
+msgid "Inline"
+msgstr ""
+
+#: includes/class-widget.php:153
+msgid "Show item count"
+msgstr ""
+
+#: includes/class-widget.php:158
+msgid "Show cart total"
+msgstr ""
+
+#: includes/class-widget.php:163
+msgid "Hide when cart is empty"
+msgstr ""
+
+#: includes/class-widget.php:168
+msgid "Link to cart page"
+msgstr ""
+
+#: includes/class-widget.php:173
+msgid "Show currency symbol"
+msgstr ""
+
+#: includes/class-widget.php:178
+msgid "Text Before:"
+msgstr ""
+
+#: includes/class-widget.php:183
+msgid "Text After:"
+msgstr ""
+
+#: includes/class-widget.php:188
+msgid "Custom CSS Class:"
+msgstr ""
+
+#: includes/class-ajax.php:29
+msgid "Security check failed"
+msgstr ""
+
+#: includes/class-admin.php:32
+msgid "Cart Counter"
+msgstr ""
+
+#: includes/class-admin.php:50
+msgid "Cart Counter Settings"
+msgstr ""
+
+#: includes/class-admin.php:52
+msgid "Configure default settings for the cart counter display."
+msgstr ""
+
+#: includes/class-admin.php:57
+msgid "Default Icon"
+msgstr ""
+
+#: includes/class-admin.php:59
+msgid "Choose the default icon to display."
+msgstr ""
+
+#: includes/class-admin.php:72
+msgid "Default Position"
+msgstr ""
+
+#: includes/class-admin.php:74
+msgid "Choose the default position for the count badge."
+msgstr ""
+
+#: includes/class-admin.php:88
+msgid "Enable AJAX Updates"
+msgstr ""
+
+#: includes/class-admin.php:90
+msgid "Enable real-time cart count updates via AJAX."
+msgstr ""
+
+#: includes/class-admin.php:93
+msgid "When enabled, the cart counter will update automatically when items are added or removed."
+msgstr ""
+
+#: includes/class-admin.php:98
+msgid "Enable Caching"
+msgstr ""
+
+#: includes/class-admin.php:100
+msgid "Enable browser caching for better performance."
+msgstr ""
+
+#: includes/class-admin.php:103
+msgid "Uses browser localStorage to cache cart data for improved performance."
+msgstr ""
+
+#: includes/class-admin.php:108
+msgid "Primary Color"
+msgstr ""
+
+#: includes/class-admin.php:110
+msgid "Choose the primary color for the cart counter."
+msgstr ""
+
+#: includes/class-admin.php:118
+msgid "Counter Background Color"
+msgstr ""
+
+#: includes/class-admin.php:120
+msgid "Choose the background color for the count badge."
+msgstr ""
+
+#: includes/class-admin.php:128
+msgid "Counter Text Color"
+msgstr ""
+
+#: includes/class-admin.php:130
+msgid "Choose the text color for the count badge."
+msgstr ""
+
+#: includes/class-admin.php:138
+msgid "Icon Size (px)"
+msgstr ""
+
+#: includes/class-admin.php:140
+msgid "Set the icon size in pixels."
+msgstr ""
+
+#: includes/class-admin.php:151
+msgid "Counter Size (px)"
+msgstr ""
+
+#: includes/class-admin.php:153
+msgid "Set the counter badge size in pixels."
+msgstr ""
+
+#: includes/class-admin.php:164
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-admin.php:166
+msgid "Add custom CSS to style the cart counter."
+msgstr ""
+
+#: includes/class-admin.php:169
+msgid "Use CSS variables like --wcc-primary-color, --wcc-counter-bg, etc. for consistent theming."
+msgstr ""
+
+#: includes/class-admin.php:178
+msgid "Performance Settings"
+msgstr ""
+
+#: includes/class-admin.php:180
+msgid "Configure performance and optimization settings."
+msgstr ""
+
+#: includes/class-admin.php:185
+msgid "Update Delay (ms)"
+msgstr ""
+
+#: includes/class-admin.php:187
+msgid "Delay in milliseconds before updating cart count via AJAX."
+msgstr ""
+
+#: includes/class-admin.php:196
+msgid "Higher values reduce server load but may delay updates. Lower values provide faster updates but increase server requests."
+msgstr ""
+
+#: includes/class-admin.php:201
+msgid "Load Assets Everywhere"
+msgstr ""
+
+#: includes/class-admin.php:203
+msgid "Load cart counter assets on all pages (not recommended)."
+msgstr ""
+
+#: includes/class-admin.php:206
+msgid "By default, assets are only loaded on pages that use the cart counter. Enable this only if you have issues with dynamic content."
+msgstr ""
+
+#: includes/class-admin.php:211
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/class-admin.php:213
+msgid "Enable debug mode for troubleshooting."
+msgstr ""
+
+#: includes/class-admin.php:216
+msgid "Enables console logging and loads unminified assets. Disable on production sites."
+msgstr ""
+
+#: assets/js/block.js:25
+msgid "Cart Counter"
+msgstr ""
+
+#: assets/js/block.js:26
+msgid "Display WooCommerce cart counter with customizable options."
+msgstr ""
+
+#: assets/js/block.js:30
+msgid "cart"
+msgstr ""
+
+#: assets/js/block.js:31
+msgid "counter"
+msgstr ""
+
+#: assets/js/block.js:32
+msgid "shopping"
+msgstr ""
+
+#: assets/js/block.js:33
+msgid "woocommerce"
+msgstr ""
+
+#: assets/js/block.js:95
+msgid "Icon Settings"
+msgstr ""
+
+#: assets/js/block.js:98
+msgid "Icon Type"
+msgstr ""
+
+#: assets/js/block.js:107
+msgid "Custom Icon URL"
+msgstr ""
+
+#: assets/js/block.js:113
+msgid "Enter the URL of your custom icon image."
+msgstr ""
+
+#: assets/js/block.js:118
+msgid "Display Settings"
+msgstr ""
+
+#: assets/js/block.js:121
+msgid "Display Style"
+msgstr ""
+
+#: assets/js/block.js:130
+msgid "Count Position"
+msgstr ""
+
+#: assets/js/block.js:139
+msgid "Show Item Count"
+msgstr ""
+
+#: assets/js/block.js:146
+msgid "Show Cart Total"
+msgstr ""
+
+#: assets/js/block.js:153
+msgid "Show Currency Symbol"
+msgstr ""
+
+#: assets/js/block.js:162
+msgid "Behavior Settings"
+msgstr ""
+
+#: assets/js/block.js:165
+msgid "Link to Cart Page"
+msgstr ""
+
+#: assets/js/block.js:172
+msgid "Hide When Cart is Empty"
+msgstr ""
+
+#: assets/js/block.js:181
+msgid "Text Settings"
+msgstr ""
+
+#: assets/js/block.js:184
+msgid "Text Before Counter"
+msgstr ""
+
+#: assets/js/block.js:192
+msgid "Text After Counter"
+msgstr ""
+
+#: assets/js/block.js:202
+msgid "Advanced Settings"
+msgstr ""
+
+#: assets/js/block.js:205
+msgid "Custom CSS Class"
+msgstr ""
+
+#: assets/js/block.js:212
+msgid "Add custom CSS classes for styling."
+msgstr ""
