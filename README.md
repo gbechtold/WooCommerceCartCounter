@@ -1,4 +1,4 @@
-# WooCommerce Cart Counter
+# Cart Counter for WooCommerce
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/woo-cart-counter)](https://wordpress.org/plugins/woo-cart-counter/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/woo-cart-counter)](https://wordpress.org/plugins/woo-cart-counter/)
@@ -10,7 +10,7 @@ A lightweight, customizable cart counter for WooCommerce with shortcode, widget,
 
 ## Description
 
-WooCommerce Cart Counter is a performance-optimized plugin that adds a customizable cart counter to your WooCommerce store. Display the cart item count anywhere on your site using shortcodes, widgets, or Gutenberg blocks.
+Cart Counter for WooCommerce is a performance-optimized plugin that adds a customizable cart counter to your WooCommerce store. Display the cart item count anywhere on your site using shortcodes, widgets, or Gutenberg blocks.
 
 ### Key Features
 
@@ -37,7 +37,7 @@ WooCommerce Cart Counter is a performance-optimized plugin that adds a customiza
 ### From WordPress Admin
 
 1. Navigate to Plugins > Add New
-2. Search for "WooCommerce Cart Counter"
+2. Search for "Cart Counter for WooCommerce"
 3. Click "Install Now" and then "Activate"
 
 ### Manual Installation

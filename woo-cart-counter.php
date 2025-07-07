@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WooCommerce Cart Counter
+ * Plugin Name: Cart Counter for WooCommerce
  * Plugin URI: https://wordpress.org/plugins/woo-cart-counter/
  * Description: Lightweight, customizable cart counter for WooCommerce with shortcode, widget, and block support.
  * Version: 1.1.2
@@ -51,7 +51,7 @@ function woo_cart_counter_check_woocommerce() {
 function woo_cart_counter_woocommerce_missing_notice() {
 	?>
 	<div class="notice notice-error is-dismissible">
-		<p><?php esc_html_e( 'WooCommerce Cart Counter requires WooCommerce to be installed and active.', 'woo-cart-counter' ); ?></p>
+		<p><?php esc_html_e( 'Cart Counter for WooCommerce requires WooCommerce to be installed and active.', 'woo-cart-counter' ); ?></p>
 	</div>
 	<?php
 }

@@ -1,4 +1,4 @@
-=== WooCommerce Cart Counter ===
+=== Cart Counter for WooCommerce ===
 Contributors: starsmedia
 Donate link: https://starsmedia.com/donate
 Tags: woocommerce, cart, counter, shopping cart, cart icon
@@ -13,7 +13,7 @@ Lightweight, customizable cart counter for WooCommerce with shortcode, widget, a
 
 == Description ==
 
-WooCommerce Cart Counter is a lightweight, performance-optimized plugin that adds a customizable cart counter to your WooCommerce store. Display the cart item count anywhere on your site using shortcodes, widgets, or Gutenberg blocks.
+Cart Counter for WooCommerce is a lightweight, performance-optimized plugin that adds a customizable cart counter to your WooCommerce store. Display the cart item count anywhere on your site using shortcodes, widgets, or Gutenberg blocks.
 
 = Key Features =
 
