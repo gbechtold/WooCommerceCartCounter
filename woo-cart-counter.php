@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Cart Counter
  * Plugin URI: https://wordpress.org/plugins/woo-cart-counter/
  * Description: Lightweight, customizable cart counter for WooCommerce with shortcode, widget, and block support.
- * Version: 1.1.1
+ * Version: 1.1.2
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: StarsMedia.com
@@ -19,7 +19,7 @@
 defined( 'ABSPATH' ) || exit;
 
 if ( ! defined( 'WOO_CART_COUNTER_VERSION' ) ) {
-	define( 'WOO_CART_COUNTER_VERSION', '1.1.1' );
+	define( 'WOO_CART_COUNTER_VERSION', '1.1.2' );
 }
 
 if ( ! defined( 'WOO_CART_COUNTER_PLUGIN_DIR' ) ) {

@@ -20,9 +20,9 @@
 
 /* Main container */
 .woo-cart-counter {
-    display: inline-block;
     position: relative;
     line-height: 1;
+    overflow: visible !important;
 }
 
 .woo-cart-counter * {
@@ -31,11 +31,10 @@
 
 /* Link styles */
 .woo-cart-counter-link {
-    display: inline-flex;
-    align-items: center;
     text-decoration: none;
     color: var(--wcc-primary-color);
     transition: transform var(--wcc-animation-duration) ease;
+    overflow: visible !important;
 }
 
 .woo-cart-counter-link:hover {
@@ -58,6 +57,9 @@
 .woo-cart-counter-icon-wrapper {
     position: relative;
     display: inline-block;
+    overflow: visible !important;
+    line-height: 0;
+    vertical-align: middle;
 }
 
 /* Icon styles */
@@ -68,6 +70,7 @@
     fill: none;
     stroke: currentColor;
     stroke-width: 2;
+    overflow: visible !important;
 }
 
 .woo-cart-counter-icon-custom {
@@ -254,6 +257,50 @@
 .rtl .woo-cart-counter-position-bottom_left .woo-cart-counter-count {
     left: auto;
     right: -8px;
+}
+
+/* Theme compatibility fixes */
+.woo-cart-counter,
+.woo-cart-counter *,
+.woo-cart-counter-link,
+.woo-cart-counter-icon-wrapper {
+    clip: auto !important;
+    clip-path: none !important;
+    -webkit-clip-path: none !important;
+}
+
+/* Flexbox layout for proper alignment */
+.woo-cart-counter {
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+/* SVG icon sizing */
+.woo-cart-counter svg {
+    min-height: var(--wcc-icon-size);
+    height: var(--wcc-icon-size) !important;
+    width: auto !important;
+    max-width: calc(var(--wcc-icon-size) * 1.2);
+    vertical-align: middle !important;
+}
+
+/* Link container flexbox */
+.woo-cart-counter a.woo-cart-counter-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    min-height: var(--wcc-icon-size);
+}
+
+/* Header-specific positioning */
+.site-header .woo-cart-counter,
+header .woo-cart-counter,
+.header-cart .woo-cart-counter,
+.menu-item .woo-cart-counter,
+nav .woo-cart-counter {
+    position: relative !important;
+    top: 0 !important;
+    transform: translateY(0) !important;
+    overflow: visible !important;
 }
 
 /* Print styles */

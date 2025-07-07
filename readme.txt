@@ -4,7 +4,7 @@ Donate link: https://starsmedia.com/donate
 Tags: woocommerce, cart, counter, shopping cart, cart icon
 Requires at least: 5.8
 Tested up to: 6.8
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -150,6 +150,13 @@ Yes, the plugin does not collect or store any personal data. It only uses LocalS
 
 == Changelog ==
 
+= 1.1.2 =
+* Fixed: Cart icon clipping/truncation issues in various themes
+* Improved: Implemented flexbox layout for better alignment
+* Added: Header-specific positioning fixes
+* Enhanced: SVG sizing with CSS variables for consistency
+* Fixed: Overflow and clip-path issues preventing full icon display
+
 = 1.1.1 =
 * Fixed: Cart icon not displaying due to SVG escaping issue
 * Improved: Added proper SVG sanitization for security
@@ -180,6 +187,9 @@ Yes, the plugin does not collect or store any personal data. It only uses LocalS
 * Translation ready
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+Fixes cart icon clipping issues. Update if your cart icon appears cut off or truncated.
 
 = 1.1.1 =
 Critical fix: Cart icon now displays correctly. Update immediately if icons are missing.

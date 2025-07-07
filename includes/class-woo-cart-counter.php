@@ -207,10 +207,22 @@ class Woo_Cart_Counter {
 			$dynamic_css .= '
 			.woo-cart-counter {
 				position: relative !important;
+				overflow: visible !important;
+				display: inline-flex !important;
+				align-items: center !important;
 			}
 			.woo-cart-counter-icon-wrapper {
 				position: relative !important;
 				display: inline-block !important;
+				overflow: visible !important;
+				line-height: 0 !important;
+			}
+			.woo-cart-counter-icon,
+			.woo-cart-counter svg {
+				overflow: visible !important;
+				height: var(--wcc-icon-size) !important;
+				width: auto !important;
+				vertical-align: middle !important;
 			}
 			.woo-cart-counter-count {
 				position: absolute !important;
